@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{304AE4AE-43AD-44CC-B2D7-C8A416AAD18C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HiTechDistributionApp</RootNamespace>
+    <AssemblyName>HiTechDistributionApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Author.cs" />
+    <Compile Include="BLL\AuthorItem.cs" />
+    <Compile Include="BLL\Book.cs" />
+    <Compile Include="BLL\BookCategory.cs" />
+    <Compile Include="BLL\BooksAuthors.cs" />
+    <Compile Include="BLL\Customer.cs" />
+    <Compile Include="BLL\Employee.cs" />
+    <Compile Include="BLL\entity\Author.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\Book.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\BookController.cs" />
+    <Compile Include="BLL\entity\BooksCategory.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\Customer.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\CustomerController.cs" />
+    <Compile Include="BLL\entity\Employee.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\EmployeeController.cs" />
+    <Compile Include="BLL\entity\HiTechDistributionDBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HiTechDistributionDBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\HiTechDistributionDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\HiTechDistributionDBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HiTechDistributionDBModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\Job.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\Order.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\OrderController.cs" />
+    <Compile Include="BLL\entity\OrdersDetail.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\OrdersDetailController.cs" />
+    <Compile Include="BLL\entity\Publisher.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\Status.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\entity\StatusController.cs" />
+    <Compile Include="BLL\entity\UserAccount.cs">
+      <DependentUpon>HiTechDistributionDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Jobs.cs" />
+    <Compile Include="BLL\Publisher.cs" />
+    <Compile Include="BLL\State.cs" />
+    <Compile Include="BLL\UserAccount.cs" />
+    <Compile Include="DAL\AuthorsDB.cs" />
+    <Compile Include="DAL\BookRepository.cs" />
+    <Compile Include="DAL\BooksAuthorsDB.cs" />
+    <Compile Include="DAL\BooksCategoriesDB.cs" />
+    <Compile Include="DAL\BooksDB.cs" />
+    <Compile Include="DAL\CustomerDB.cs" />
+    <Compile Include="DAL\CustomerRepository.cs" />
+    <Compile Include="DAL\EmployeeRepository.cs" />
+    <Compile Include="DAL\EmployeesDB.cs" />
+    <Compile Include="DAL\JobsDB.cs" />
+    <Compile Include="DAL\OrderRepository.cs" />
+    <Compile Include="DAL\OrdersDetailRepository.cs" />
+    <Compile Include="DAL\PublishersDB.cs" />
+    <Compile Include="DAL\StateDB.cs" />
+    <Compile Include="DAL\StatusRepository.cs" />
+    <Compile Include="DAL\UserAccountsDB.cs" />
+    <Compile Include="DAL\UtilityDB.cs" />
+    <Compile Include="GUI\FormInventoryController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormInventoryController.Designer.cs">
+      <DependentUpon>FormInventoryController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FormMISManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormMISManager.Designer.cs">
+      <DependentUpon>FormMISManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FormOrderClerks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormOrderClerks.Designer.cs">
+      <DependentUpon>FormOrderClerks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FormSalesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormSalesManager.Designer.cs">
+      <DependentUpon>FormSalesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FormUserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormUserProfile.Designer.cs">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VALIDATION\OrderValidator.cs" />
+    <Compile Include="VALIDATION\PublisherValidation.cs" />
+    <Compile Include="VALIDATION\BooksValidation.cs" />
+    <Compile Include="VALIDATION\CustomerValidation.cs" />
+    <Compile Include="VALIDATION\AuthorValidator.cs" />
+    <Compile Include="VALIDATION\EmployeeValidator.cs" />
+    <Compile Include="VALIDATION\UserValidator.cs" />
+    <EmbeddedResource Include="GUI\FormInventoryController.resx">
+      <DependentUpon>FormInventoryController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FormMISManager.resx">
+      <DependentUpon>FormMISManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FormOrderClerks.resx">
+      <DependentUpon>FormOrderClerks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FormSalesManager.resx">
+      <DependentUpon>FormSalesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FormUserProfile.resx">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="BLL\entity\HiTechDistributionDBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HiTechDistributionDBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BLL\entity\HiTechDistributionDBModel.edmx.diagram">
+      <DependentUpon>HiTechDistributionDBModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BLL\entity\HiTechDistributionDBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HiTechDistributionDBModel.edmx</DependentUpon>
+      <LastGenOutput>HiTechDistributionDBModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="BLL\entity\HiTechDistributionDBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HiTechDistributionDBModel.edmx</DependentUpon>
+      <LastGenOutput>HiTechDistributionDBModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="HiTechDistributionApp.BLL.Author">
+    <Position X="14.75" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACDAAACgAAAAAAAAAAAAAAgAABQACAAUAAg=</HashCode>
+      <FileName>BLL\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.AuthorItem" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\AuthorItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.Book" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBAACEAKQAggAkAAKAAJAAAIARAAAAAQAAAAACAAAQA=</HashCode>
+      <FileName>BLL\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.BookCategory" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAIwAgCAIAAAAAAAgAAAAAABAAAAAAAAAAg=</HashCode>
+      <FileName>BLL\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.BooksAuthors" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAQggAAEAAAAAAAAAAAAAAAAEBAFABAAQQAAA=</HashCode>
+      <FileName>BLL\BooksAuthors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.Customer" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAIIAAAQAAAQAAAIBAAIAIAAAAAAAA=</HashCode>
+      <FileName>BLL\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.Employee" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAkAIACJACAAgAAAAAEQAAAAAABCIgAIACBAKIAk=</HashCode>
+      <FileName>BLL\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.Jobs" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAACAAAAAAAAAAAIAAAAJAAAAAAAAAIAAA=</HashCode>
+      <FileName>BLL\Jobs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.Publisher" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAgAAAAgAAAAAIAAIAQAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>BLL\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.State" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAIAAAACAAAAAAAAAAAAAAAAAAAgAAAAAAAIAA=</HashCode>
+      <FileName>BLL\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.UserAccount" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAIAEAQCAAACAAAAA4ABAAEEAQCgAAEAgEAAAA=</HashCode>
+      <FileName>BLL\UserAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.BookController" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAgAAAAAIACgAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>BLL\entity\BookController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.CustomerController" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAgAAAAAQAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>BLL\entity\CustomerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.EmployeeController" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAA=</HashCode>
+      <FileName>BLL\entity\EmployeeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.HiTechDistributionDBContext" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEEAAAAEAAAAAAAEAEAAAAAImABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\entity\HiTechDistributionDBModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Author" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>BLL\entity\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Book" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAACAgCAQAAAEAACAAAAAAAAQBAAAAQAAABAAAAAAA=</HashCode>
+      <FileName>BLL\entity\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.BooksCategory" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\entity\BooksCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Customer" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAABAAIIAAAQAAAUAAAIAAAAAIAAAAAAAA=</HashCode>
+      <FileName>BLL\entity\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Employee" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMQAEAMACAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>BLL\entity\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Job" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BLL\entity\Job.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Order" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAMAABAMAAAAAAAAAgAAAAAAGAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\entity\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.OrdersDetail" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEACBAgAAAAAABAAAAAAAACAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>BLL\entity\OrdersDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Publisher" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>BLL\entity\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.Status" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAIAAAAAAAAAAAAAAAICAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BLL\entity\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.UserAccount" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAAAAAAAAAAAAAAwACAAAAAACAAAEAAAAAAA=</HashCode>
+      <FileName>BLL\entity\UserAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.OrderController" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAgAAAAAAAAAACAABAAEAIEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>BLL\entity\OrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.OrdersDetailController" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChAAAAAEQIAAAAAAEAAgAAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BLL\entity\OrdersDetailController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.BLL.entity.StatusController" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAA=</HashCode>
+      <FileName>BLL\entity\StatusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.AuthorsDB" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAgAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\AuthorsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.BookRepository" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\BookRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.BooksAuthorsDB" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEgAAAAAAAAAAAAAAAAAAAAABAEAAAAQAAAA=</HashCode>
+      <FileName>DAL\BooksAuthorsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.BooksCategoriesDB" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAgAAAAAAABAAAAAAAAAAAAABAAAAAAAgAAA=</HashCode>
+      <FileName>DAL\BooksCategoriesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.BooksDB" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAgAAAAAAABAIAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\BooksDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.CustomerDB" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>DAL\CustomerDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.CustomerRepository" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>DAL\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.EmployeeRepository" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\EmployeeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.EmployeesDB" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAggAAAAAAABAAAAAAAAAgAIABAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\EmployeesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.JobsDB" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\JobsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.OrderRepository" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAQAgAAAAAAAAAAAAAAgAEAIEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DAL\OrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.OrdersDetailRepository" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAEAIAAAAAAEQAgAAAAQAAAAAAAQQAAAAEAAAA=</HashCode>
+      <FileName>DAL\OrdersDetailRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.PublishersDB" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAgAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\PublishersDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.StateDB" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\StateDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.StatusRepository" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\StatusRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.UserAccountsDB" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAgABAAAAABAAAAAAAAAgAAABAAAAAAAAQAE=</HashCode>
+      <FileName>DAL\UserAccountsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.DAL.UtilityDB" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\UtilityDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.GUI.FormInventoryController" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wGEloJJEX9JQHysMWXSI8LHXzoygkeaxWG6qoZxb/E=</HashCode>
+      <FileName>GUI\FormInventoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.GUI.FormLogin" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAgAAhAAECAAABAAgACAAAACACAICAAAAEAAAABAAAA=</HashCode>
+      <FileName>GUI\FormLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.GUI.FormMISManager" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/lmYtQEAECISDVYBuj3QAFAGgSLUEIJQAWAYIAAAADA=</HashCode>
+      <FileName>GUI\FormMISManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.GUI.FormOrderClerks" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>86opgiGqUCjhiXmED8TxEMQyASIzIpKIezRwDJwwLPM=</HashCode>
+      <FileName>GUI\FormOrderClerks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.GUI.FormSalesManager" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>E4IigAAgEDphAFQAAASURAwCAyBRAAIACSahBIIGAxg=</HashCode>
+      <FileName>GUI\FormSalesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.GUI.FormUserProfile" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAiIIhQBECAAABAAKBCAAAgCACBAEIACAGAAAAQAAAA=</HashCode>
+      <FileName>GUI\FormUserProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.Program" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.AuthorValidator" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>VALIDATION\AuthorValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.BooksValidation" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAEAAAAACIAAAAAAQAAQAAIAA=</HashCode>
+      <FileName>VALIDATION\BooksValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.CustomerValidation" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAAAACAAAAAAABAAAAAAAAACAAAAAAAAQAACAA=</HashCode>
+      <FileName>VALIDATION\CustomerValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.EmployeeValidator" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>VALIDATION\EmployeeValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.OrderValidator" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAABAAAQAAAAAAAAAAAgEAAAAAAAAQAEAAA=</HashCode>
+      <FileName>VALIDATION\OrderValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.PublisherValidation" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>VALIDATION\PublisherValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionApp.VALIDATION.UserValidator" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>VALIDATION\UserValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

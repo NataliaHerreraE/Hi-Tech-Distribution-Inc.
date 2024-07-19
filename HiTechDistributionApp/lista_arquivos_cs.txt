@@ -1,0 +1,234 @@
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\Program.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Author.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\AuthorItem.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Book.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\BookCategory.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\BooksAuthors.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\BooksCategory.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Customer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Employee.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\HiTechDistributionDBModel.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Job.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Jobs.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Order.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\OrdersDetail.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Publisher.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\State.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\Status.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\UserAccount.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Author.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Book.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\BookController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\BooksCategory.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Customer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\CustomerController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Employee.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\EmployeeController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\HiTechDistributionDBModel.Context.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\HiTechDistributionDBModel.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\HiTechDistributionDBModel.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Job.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Order.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\OrderController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\OrdersDetail.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\OrdersDetailController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Publisher.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\Status.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\StatusController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\BLL\entity\UserAccount.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\AuthorsDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\BookRepository.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\BooksAuthorsDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\BooksCategoriesDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\BooksDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\CustomerDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\CustomerRepository.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\EmployeeRepository.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\EmployeesDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\JobsDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\OrderRepository.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\OrdersDetailRepository.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\PublishersDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\StateDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\StatusRepository.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\UserAccountsDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\DAL\UtilityDB.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormInventoryController.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormInventoryController.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormLogin.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormLogin.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormMISManager.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormMISManager.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormOrderClerks.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormOrderClerks.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormSalesManager.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormSalesManager.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormUserProfile.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\GUI\FormUserProfile.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\Properties\AssemblyInfo.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\Properties\Resources.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\Properties\Settings.Designer.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\AuthorValidator.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\BooksValidation.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\CustomerValidation.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\EmployeeValidator.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\OrderValidator.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\PublisherValidation.cs
+C:\Pe\LaSalle\Winter 2024\Multi-tier Applications Development\Final Project\Modulo04\Project\HiTechDistributionApp\VALIDATION\UserValidator.cs
+Program.cs 
+Author.cs 
+AuthorItem.cs 
+Book.cs 
+BookCategory.cs 
+BooksAuthors.cs 
+BooksCategory.cs 
+Customer.cs 
+Employee.cs 
+HiTechDistributionDBModel.cs 
+Job.cs 
+Jobs.cs 
+Order.cs 
+OrdersDetail.cs 
+Publisher.cs 
+State.cs 
+Status.cs 
+UserAccount.cs 
+Author.cs 
+Book.cs 
+BookController.cs 
+BooksCategory.cs 
+Customer.cs 
+CustomerController.cs 
+Employee.cs 
+EmployeeController.cs 
+HiTechDistributionDBModel.Context.cs 
+HiTechDistributionDBModel.cs 
+HiTechDistributionDBModel.Designer.cs 
+Job.cs 
+Order.cs 
+OrderController.cs 
+OrdersDetail.cs 
+OrdersDetailController.cs 
+Publisher.cs 
+Status.cs 
+StatusController.cs 
+UserAccount.cs 
+AuthorsDB.cs 
+BookRepository.cs 
+BooksAuthorsDB.cs 
+BooksCategoriesDB.cs 
+BooksDB.cs 
+CustomerDB.cs 
+CustomerRepository.cs 
+EmployeeRepository.cs 
+EmployeesDB.cs 
+JobsDB.cs 
+OrderRepository.cs 
+OrdersDetailRepository.cs 
+PublishersDB.cs 
+StateDB.cs 
+StatusRepository.cs 
+UserAccountsDB.cs 
+UtilityDB.cs 
+FormInventoryController.cs 
+FormInventoryController.Designer.cs 
+FormLogin.cs 
+FormLogin.Designer.cs 
+FormMISManager.cs 
+FormMISManager.Designer.cs 
+FormOrderClerks.cs 
+FormOrderClerks.Designer.cs 
+FormSalesManager.cs 
+FormSalesManager.Designer.cs 
+FormUserProfile.cs 
+FormUserProfile.Designer.cs 
+.NETFramework,Version=v4.8.AssemblyAttributes.cs 
+AssemblyInfo.cs 
+Resources.Designer.cs 
+Settings.Designer.cs 
+AuthorValidator.cs 
+BooksValidation.cs 
+CustomerValidation.cs 
+EmployeeValidator.cs 
+OrderValidator.cs 
+PublisherValidation.cs 
+UserValidator.cs 
+Program.cs 
+Author.cs 
+AuthorItem.cs 
+Book.cs 
+BookCategory.cs 
+BooksAuthors.cs 
+BooksCategory.cs 
+Customer.cs 
+Employee.cs 
+HiTechDistributionDBModel.cs 
+Job.cs 
+Jobs.cs 
+Order.cs 
+OrdersDetail.cs 
+Publisher.cs 
+State.cs 
+Status.cs 
+UserAccount.cs 
+Author.cs 
+Book.cs 
+BookController.cs 
+BooksCategory.cs 
+Customer.cs 
+CustomerController.cs 
+Employee.cs 
+EmployeeController.cs 
+HiTechDistributionDBModel.Context.cs 
+HiTechDistributionDBModel.cs 
+HiTechDistributionDBModel.Designer.cs 
+Job.cs 
+Order.cs 
+OrderController.cs 
+OrdersDetail.cs 
+OrdersDetailController.cs 
+Publisher.cs 
+Status.cs 
+StatusController.cs 
+UserAccount.cs 
+AuthorsDB.cs 
+BookRepository.cs 
+BooksAuthorsDB.cs 
+BooksCategoriesDB.cs 
+BooksDB.cs 
+CustomerDB.cs 
+CustomerRepository.cs 
+EmployeeRepository.cs 
+EmployeesDB.cs 
+JobsDB.cs 
+OrderRepository.cs 
+OrdersDetailRepository.cs 
+PublishersDB.cs 
+StateDB.cs 
+StatusRepository.cs 
+UserAccountsDB.cs 
+UtilityDB.cs 
+FormInventoryController.cs 
+FormInventoryController.Designer.cs 
+FormLogin.cs 
+FormLogin.Designer.cs 
+FormMISManager.cs 
+FormMISManager.Designer.cs 
+FormOrderClerks.cs 
+FormOrderClerks.Designer.cs 
+FormSalesManager.cs 
+FormSalesManager.Designer.cs 
+FormUserProfile.cs 
+FormUserProfile.Designer.cs 
+.NETFramework,Version=v4.8.AssemblyAttributes.cs 
+AssemblyInfo.cs 
+Resources.Designer.cs 
+Settings.Designer.cs 
+AuthorValidator.cs 
+BooksValidation.cs 
+CustomerValidation.cs 
+EmployeeValidator.cs 
+OrderValidator.cs 
+PublisherValidation.cs 
+UserValidator.cs 
